@@ -22,8 +22,8 @@ Java Backend Developer responsible for backend architecture and core services ac
 - **Auto-Apply Recovery & Observability:** Migrated a stalled Python service into a colocated Java/Kafka consumer; built structured-log monitoring in Loki/Grafana and selective monorepo CI (`detect-impact.sh`) on GitHub Actions.
 
 #### Public Projects
-- **[Agent-Rig](https://github.com/impatient0/agent-rig)** *(add/verify link)* — A skill and workflow collection bringing engineering discipline to AI coding agents: isolated worktree dispatch, independent verification gates, ADR/backlog audits, and clean merges. *(Also publishing on [Agensi.io](https://agensi.io).)*
-- **[Project A-Zero](https://github.com/impatient0/a-zero)** *(verify repo slug)* — Data-driven cryptocurrency trading and backtesting platform built with Java & Spring.
+- **[Agent-Rig](https://github.com/impatient0/agent-rig)** — A skill and workflow collection bringing engineering discipline to AI coding agents: isolated worktree dispatch, independent verification gates, ADR/backlog audits, and clean merges. *(Also publishing on [Agensi.io](https://agensi.io).)*
+- **[Project A-Zero](https://github.com/impatient0/a-zero)** — Data-driven cryptocurrency trading and backtesting platform built with Java & Spring.
 - **[1-Click Render Add-on](https://github.com/impatient0/render-pipeline-addon)** — Blender utility add-on for direct asset/render export.
 
 ---
