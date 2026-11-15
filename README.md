@@ -1,77 +1,35 @@
-### 👋 Привет, меня зовут Иван!
+### Hi, I'm Ivan Petrovsky
 
-Я Java-разработчик, которому нравится создавать что-то полезное и находить красивые решения в сложных задачах. Для меня чистая архитектура и надежный код — инструменты, которые помогают превращать интересные идеи во что-то стабильно работающее и способное развиваться. Мой бэкграунд в CS помогает мне подходить к задачам вдумчиво и понимать фундаментальные принципы.
-
----
-
-### ⚙️ Мой стек технологий
-
-<table>
-  <tr>
-    <td align="center" width="96">
-      <a href="#-мой-стек-технологий">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" width="48" height="48" alt="Java" />
-      </a>
-      <br>Java
-    </td>
-    <td align="center" width="96">
-      <a href="#-мой-стек-технологий">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" width="48" height="48" alt="Spring" />
-      </a>
-      <br>Spring
-    </td>
-    <td align="center" width="96">
-      <a href="#-мой-стек-технологий">        
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachekafka/apachekafka-original.svg" width="48" height="48" alt="Kafka" />
-      </a>
-      <br>Kafka
-    </td>
-     <td align="center" width="96">
-      <a href="#-мой-стек-технологий">
-        <img src="https://www.vectorlogo.zone/logos/grpcio/grpcio-icon.svg" width="48" height="48" alt="gRPC" />
-      </a>
-      <br>gRPC
-    </td>
-    <td align="center" width="96">
-      <a href="#-мой-стек-технологий">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" width="48" height="48" alt="PostgreSQL" />
-      </a>
-      <br>PostgreSQL
-    </td>
-    <td align="center"  width="96">
-      <a href="#-мой-стек-технологий">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" width="48" height="48" alt="Docker" />
-      </a>
-      <br>Docker
-    </td>
-  </tr>
-</table>
+Java Backend Developer based in Moscow. Previously owned backend development and architecture at an early-stage HR-tech startup (14 Java/Spring Boot microservices, Kafka, PostgreSQL, LLM pipelines). Also building tooling and structured workflows for AI coding agents.
 
 ---
 
-### 🔭 Мои главные проекты
+### Core Stack
 
-*   **[java-plus-graduation](https://github.com/impatient0/java-plus-graduation)**: Микросервисный проект, где я провел рефакторинг, заменив REST-взаимодействие на асинхронную архитектуру с **Kafka** и **gRPC**.
-*   **[plus-smart-home-tech](https://github.com/impatient0/plus-smart-home-tech)**: Бэкенд для "Умного дома", где я применил принципы **Гексагональной архитектуры (DDD)** для полной изоляции бизнес-логики.
-*   **[java-shareit](https://github.com/impatient0/java-shareit)**: Сервис аренды вещей, в котором я сделал упор на качество кода, обеспечив его надежность с помощью интеграционных тестов на **Testcontainers**.
-
----
-
-### 💡 Мой подход к разработке
-
-*   **Осознанный выбор инструментов.:** Мне важно понимать, как устроена технология "под капотом", чтобы принимать взвешенные решения, а не просто следовать трендам.
-*   **Код для людей, а не для машин:** Я стараюсь писать код, который будет понятен моим коллегам. Хорошая архитектура = безболезненная поддержка и гибкое развитие.
-*   **Фокус на решении задачи:** Технологии — это средство. Я всегда ищу красивые и простые пути для решения конкретной бизнес-задачи.
+- **Backend:** Java, Spring Boot, Spring Security, JPA / Hibernate, REST API
+- **Messaging & Data:** Apache Kafka, PostgreSQL, pgvector, Redis, Liquibase
+- **AI & Tooling:** LangChain4j, structured LLM pipelines, AI coding-agent workflows (MCP, skills, hooks)
+- **Infra & Observability:** Docker, GitHub Actions, Testcontainers, Grafana, Loki
 
 ---
 
-### 📊 Моя статистика на GitHub
+### Experience & Key Projects
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=impatient0&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+#### Vaiti — HR-tech Platform *(Oct 2025 – Jun 2026, commercial, private repo)*
+Java Backend Developer responsible for backend architecture and core services across 14 microservices.
+- **LLM Pipeline Optimization:** Moved taxonomy resolution out of prompts into `pgvector` semantic search and added fail-fast filtering, cutting per-vacancy processing cost by 70% and latency by 33%.
+- **Quota & Billing Subsystem:** Built a hybrid credit model (Redis daily counters + PostgreSQL term credits) with idempotent compensating refund events over Kafka on AI operation failures.
+- **Auto-Apply Recovery & Observability:** Migrated a stalled Python service into a colocated Java/Kafka consumer; built structured-log monitoring in Loki/Grafana and selective monorepo CI (`detect-impact.sh`) on GitHub Actions.
+
+#### Public Projects
+- **[Agent-Rig](https://github.com/impatient0/agent-rig)** *(add/verify link)* — A skill and workflow collection bringing engineering discipline to AI coding agents: isolated worktree dispatch, independent verification gates, ADR/backlog audits, and clean merges. *(Also publishing on [Agensi.io](https://agensi.io).)*
+- **[Project A-Zero](https://github.com/impatient0/a-zero)** *(verify repo slug)* — Data-driven cryptocurrency trading and backtesting platform built with Java & Spring.
+- **[1-Click Render Add-on](https://github.com/impatient0/render-pipeline-addon)** — Blender utility add-on for direct asset/render export.
 
 ---
 
-### 📫 Как со мной связаться
+### Links & Contact
 
-*   **Email:** `ivanpetrovskiy98@gmail.com`
-*   **Telegram:** `@LonkiSolomki`
+- **Website:** [impatient0.com](https://impatient0.com)
+- **Telegram:** [@LonkiSolomki](https://t.me/LonkiSolomki)
+- **Email:** `ivanpetrovskiy98@gmail.com`
